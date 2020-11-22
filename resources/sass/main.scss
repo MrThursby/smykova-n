@@ -1,0 +1,43 @@
+@import 'common.blocks/cover-header/cover-header';
+
+.brightness-25 {
+    filter: brightness(0.25);
+}
+.brightness-50 {
+    filter: brightness(0.5);
+}
+.brightness-75 {
+    filter: brightness(0.75);
+}
+
+.content {
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 0 0 25px #ffffff70;
+    &:first-of-type {
+        margin-top: -25px;
+    }
+}
+.card-columns {
+    @include media-breakpoint-only(sm) {
+        column-count: 1;
+    }
+    @include media-breakpoint-only(md) {
+        column-count: 2;
+    }
+    @include media-breakpoint-only(lg) {
+        column-count: 3;
+    }
+}
+.about-author {
+    .author-info-photo {
+        min-height: 400px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+.navbar-light .navbar-toggler {
+    padding: 0.25rem;
+    outline: none;
+    border: none;
+}

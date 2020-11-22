@@ -1,0 +1,44 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreatePresentationCommentsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('presentation_comments', function (Blueprint $table) {
+            $table->id();
+
+            $table->unsignedBigInteger('author_id');
+            $table->unsignedBigInteger('presentations_id');
+
+            $table->text('content');
+
+            $table->timestamps();
+
+            $table->foreign('author_id')
+                ->references('id')
+                ->on('users');
+            $table->foreign('presentations_id')
+                ->references('id')
+                ->on('presentations');
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('presentation_comments');
+    }
+}

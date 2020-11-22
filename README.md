@@ -7,6 +7,11 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+# Проект
+Этот репозиторий сайта smykova-n.ru
+Сам сайт в данный момент не синхронизирован (отстаёт) с этим репозиторием. 
+В репозитории начато переосмысление бд, структуры сайта. Однако проект стоит на месте более полугода, в связи с тем, что первая версия на данный момент справляется со своей задачей.
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:

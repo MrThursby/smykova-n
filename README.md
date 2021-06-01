@@ -1,4 +1,4 @@
-<p align="center"><img src="https://sun9-3.userapi.com/impf/eQT6-MeRP4A8vrZKPy0JvFNNmB4_Si49BDBdOg/GEG5QbCfE1k.jpg"></p>
+<p align="center"><img src="https://sun9-3.userapi.com/impf/eQT6-MeRP4A8vrZKPy0JvFNNmB4_Si49BDBdOg/GEG5QbCfE1k.jpg?size=795x265&quality=95&crop=239,0,1637,545&sign=3f243c2bc42b7f16b4901a827e99861c&type=cover_group"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
